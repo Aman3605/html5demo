@@ -1,0 +1,200 @@
+/* General body styling*/
+body {
+	background: #009999 url("../images/background/bg.jpg");
+}
+header {
+	display: block;
+	margin: 5px 0;
+}
+h1 {
+	margin: 0 0;
+}
+header h1 {
+	text-align: center;
+	color: white;
+	font-family: "Trebuchet MS", cursive;
+	text-decoration: none;
+	font-size: 200%;
+	text-shadow: 5px 5px 10px #1E7676, 1px 1px 1px #1E7676, 1px -1px 1px #1E7676, -1px -1px 1px #1E7676, -1px 1px 1px #1E7676;
+}
+header img {
+	vertical-align: middle
+}
+#backColor {
+	background-color: #009999;
+	display: block;
+	border-radius: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 0;
+	padding-bottom: 5px;
+}
+/* even separate menu item*/
+nav ul {
+	margin: 0 0;
+	padding: 0 0;
+	width: 100%;
+	height: 100px;
+	position: relative;
+	display: table;
+	table-layout: fixed;
+}
+nav li {
+	display: table-cell;
+	padding: 5px 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+/*set background image*/
+#home:hover {
+	background: url("../images/home.png"), linear-gradient(#FF6600, #FFFFFF);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+#upcomingFlights:hover {
+	background: url("../images/upcomingFlights.png"), linear-gradient(#FF6600, #FFFFFF);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+#aboutUs:hover {
+	background: url("../images/Icon-th.png"), linear-gradient(#FF6600, #FFFFFF);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#travelGuide:hover {
+	background: url("../images/travelGuide.png"), linear-gradient(#FF6600, #FFFFFF);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+#contactUs:hover {
+	background: url("../images/contactUs.png"), linear-gradient(#FF6600, #FFFFFF);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+nav li > a {
+	top: 60px;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	color: white;
+	background: linear-gradient(#FF6600, #FFFFFF);
+	border-radius: 10px 10px 0 0;
+	font-weight: bold;
+	font-family: 'Vollkorn', serif;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: top;
+	line-height: 200%;
+	position: relative;
+	transition: all .2s;
+}
+
+/* upper arrow shape */
+nav li > a:before {
+	content: '';
+	height: 0;
+	position: absolute;
+	width: 0;
+	border: 15px solid transparent;
+	border-bottom-color: #FF6600;
+	top: -30px;
+	left: 50%;
+	margin-left: -15px;
+}
+
+/*show the menu image*/
+nav li > a:hover {
+	top: 10px
+}
+
+section {
+	background-color: white;
+	border-radius: 5px;
+	margin: 5px 5px;
+	padding: 10px 50px;
+}
+
+section > div {
+	margin: 0 auto;
+	height: auto;
+	width: 75%
+}
+
+section > div h1 {
+	margin: 10px 0;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 150%;
+	color: #009999
+}
+
+section > div p {
+	margin: 5px 0;
+	font-family: Arial, "Times New Roman", serif;
+	font-size: 90%;
+}
+
+#island {
+	background: url("../images/island.jpg");
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	background-size: cover;
+	box-shadow: -2px 2px 2px black;
+	height: 300px;
+	width: 700px;
+}
+
+div#linksPart {
+	display: table;
+	margin: 0 auto;
+}
+
+div.column {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	display: table-cell;
+}
+
+div.column ul {
+	list-style: none;
+	color: #FF6600;
+}
+
+div.column ul li:before {
+	content: "\2192\20";
+}
+
+div.column a:not(.special-link) {
+	color: #FF6600;
+	text-decoration: underline;
+}
+
+div.column a:hover {
+	color: purple;
+	cursor: pointer;
+}
+
+div.column  h3 {
+	color: #009999;
+	margin-bottom: 10px;
+}
+
+a.special-link {
+	color: #009999;
+}
+
+footer {
+	color: #009999;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}

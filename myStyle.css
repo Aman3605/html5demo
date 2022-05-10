@@ -1,0 +1,12 @@
+/*External Style Sheet file with style Rules*/
+
+body{background-color: aquamarine;
+    font-size: larger;
+    font-family: monospace;
+}
+ 
+h1{color: darkorange;}
+ 
+p{color: blue;}
+
+#ipl{color: red;font-family: monospace;}
